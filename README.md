@@ -67,3 +67,20 @@ export default defineNuxtConfig({
   },
 })
 ```
+
+# setup app.vue
+```
+<template>
+  <div>
+    <NuxtWelcome />
+  </div>
+</template>
+
+↓
+
+<template>
+  <div>
+    <NuxtPage />
+  </div>
+</template>
+```
